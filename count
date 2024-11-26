@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Haruhiko Kawai
+# SPDX-Licence-Identifier: BSD-3-Clause
+
+def count(file_path):
+  try:
+    with open(file_path,'r',encoding='utf-8') as file:
+      content = file.read()
+      rncontent = content.replace(" ", "").replace("\n", "")
+      char_count = len(rncontent)
+      print("Character count: {}".format(char_count))
+      return char_count
+  except FileNotFoundError:
+    print("The file '{}'was not found.".format(file_path))
+  except Exception as e:
+    print("error occurred: {}".format(e))
+
+file_path = 'mcount.txt' #write textfile name you want to count character
+count(file_path)
+
