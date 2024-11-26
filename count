@@ -15,6 +15,6 @@ def count(file_path):
   except Exception as e:
     print("error occurred: {}".format(e))
 
-file_path = 'mcount.txt' #write textfile name you want to count character
+file_path = 'sampletext.txt' #write textfile name you want to count character
 count(file_path)
 
