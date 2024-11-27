@@ -31,38 +31,34 @@ my repository's URL is " https://github.com/HaruhikoKawai/character-count.git "
 
 Please enter the following:
 
-'''
+```
 git clone https://github.com/HaruhikoKawai/character-count.git
 
 cd character-count
-
-'''
+```
 
 To execute the command, you need to grant the necessary permissions. Please grant permissions by running the following command the first time you use it
 
-'''
 
+```
 chmod +x count
-
-'''
+```
 
 <u><h1>functionality check and how to use</h1></u>
 
 After installation,Please perform a functionality check first.
 change directory named "character-count". Inside this directory, run the command following
 
-'''
-
+```
 cat sampletext.txt | ./count
+```
 
-'''
 If you obtain the following results, the program is working correctly.
 
-'''
 
+```
 Character count: 447
-
-'''
+```
 
 If you encounter issues and cannot run it, please review your environment or commands. If the problem persists, contact us using the details below.
 
@@ -72,11 +68,10 @@ After completing the functionality check. you can use this code
 Inside this directory, create a text file containing the text you want to count.There are no restrictions on the name of the text file.
 Once the file is created, run the command:
 
-'''
 
+```
 cat filename | ./count
-
-'''
+```
 
 This will count the characters in the file you specified (filename) and display the result in the format:
 Character count: [number].
