@@ -1,8 +1,8 @@
-# What can this code do?
+#What can this code do?
 
 Count the number of characters in a text file
 
-#What is the purpose of creating this code?
+<u><h1>What is the purpose of creating this code?</h1></u>
 
 Have you ever felt like this while writing a report?
 “Darn it! The professor assigned me to write a report with ○○ characters, but I have no idea how many I’ve written so far!”
@@ -13,19 +13,19 @@ Let me show you how to install and use it in a simple and easy-to-understand way
 
 And hey, let’s make a deal — no saying, “Wouldn’t Word do this already?” Alright, buddy?
 
-#enviroment
+<u><h1>enviroment</h1></u>
 
 Ubuntu 20.04
 
-#Language
+<u><h1>Language</h1></u>
 
 python
 
-#supported version
+<u><h1>supported version</h1></u>
 
 python ver. 3.6 , 3.7 , 3.8 , 3.9 , 3.10  
 
-#how to install
+<u><h1>how to install</h1></u>
 
 my repository's URL is " https://github.com/HaruhikoKawai/character-count.git "
 
@@ -38,7 +38,7 @@ after
 ![スクリーンショット 2024-11-27 234816](https://github.com/user-attachments/assets/3b8eeffd-74c9-4405-b324-1fe0ce599495)
 
 
-#functionality check and how to use
+<u><h1>functionality check and how to use</h1></u>
 
 After installation,Please perform a functionality check first.
 change directory named "character-count". Inside this directory, run the command following
@@ -62,7 +62,7 @@ Once the file is created, run the command:
 This will count the characters in the file you specified (filename) and display the result in the format:
 Character count: [number].
 
-#Things being checked in the test.bash
+<u><h1>Things being checked in the test.bash</h1></u>
 
 1.normal textfile in this code
 
@@ -70,7 +70,7 @@ Character count: [number].
 
 3.Exception
 
-#LICENCE
+<u><h1>LICENCE</h1></u>
 
 ・Portions of this software package are permitted to be redistributed and used under the 3-Clause BSD License.
 
