@@ -31,27 +31,38 @@ my repository's URL is " https://github.com/HaruhikoKawai/character-count.git "
 
 Please enter the following:
 
-![スクリーンショット 2024-11-27 234744](https://github.com/user-attachments/assets/d954f06a-9ad9-4de1-b8c2-8e44ad0a14ab)
+'''
+git clone https://github.com/HaruhikoKawai/character-count.git
 
-after
+cd character-count
 
-![スクリーンショット 2024-11-27 234816](https://github.com/user-attachments/assets/3b8eeffd-74c9-4405-b324-1fe0ce599495)
+'''
 
 To execute the command, you need to grant the necessary permissions. Please grant permissions by running the following command the first time you use it
 
-![スクリーンショット 2024-11-28 004920](https://github.com/user-attachments/assets/9e003f04-20b5-4a47-8ad2-998cca2fc209)
+'''
 
+chmod +x count
+
+'''
 
 <u><h1>functionality check and how to use</h1></u>
 
 After installation,Please perform a functionality check first.
 change directory named "character-count". Inside this directory, run the command following
 
-![スクリーンショット 2024-11-28 000108](https://github.com/user-attachments/assets/eef761cd-f175-483f-ba88-a2ae13d78d2c)
+'''
 
+cat sampletext.txt | ./count
+
+'''
 If you obtain the following results, the program is working correctly.
 
-![スクリーンショット 2024-11-28 000210](https://github.com/user-attachments/assets/4c88b09b-6d17-4117-9187-81e75b460052)
+'''
+
+Character count: 447
+
+'''
 
 If you encounter issues and cannot run it, please review your environment or commands. If the problem persists, contact us using the details below.
 
@@ -61,7 +72,11 @@ After completing the functionality check. you can use this code
 Inside this directory, create a text file containing the text you want to count.There are no restrictions on the name of the text file.
 Once the file is created, run the command:
 
-![スクリーンショット 2024-11-27 205016](https://github.com/user-attachments/assets/b4404c9e-9f0c-4d1c-963f-55741b9c51b5)
+'''
+
+cat filename | ./count
+
+'''
 
 This will count the characters in the file you specified (filename) and display the result in the format:
 Character count: [number].
