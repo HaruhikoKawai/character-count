@@ -15,7 +15,7 @@ And hey, let’s make a deal — no saying, “Wouldn’t Word do this already?�
 
 <u><h1>enviroment</h1></u>
 
-Ubuntu 20.04
+Ubuntu 20.04LTS
 
 <u><h1>Language</h1></u>
 
