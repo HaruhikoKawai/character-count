@@ -5,14 +5,17 @@
 import sys
 
 def count():
-  try:
-    content = sys.stdin.read()
-    rncontent = content.replace(" ", "").replace("\n", "")
-    char_count = len(rncontent)
-    print("Character count: {}".format(char_count))
-    return char_count
-  except Exception as e:
-    print("error occurred: {}".format(e))
+    try:    
+        content = sys.stdin.read()
+        rncontent = content.replace(" ", "").replace("\n", "")
+        char_count = len(rncontent)
+        print("Character count: {}".format(char_count))
+        return char_count
+    except Exception as e:
+        e = -1  
+        print("error occurred: {}".format(e), file=sys.stderr)
+        return e
 
 count()
 
+     
