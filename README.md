@@ -37,6 +37,10 @@ after
 
 ![スクリーンショット 2024-11-27 234816](https://github.com/user-attachments/assets/3b8eeffd-74c9-4405-b324-1fe0ce599495)
 
+To execute the command, you need to grant the necessary permissions. Please grant permissions by running the following command the first time you use it
+
+![スクリーンショット 2024-11-28 004920](https://github.com/user-attachments/assets/9e003f04-20b5-4a47-8ad2-998cca2fc209)
+
 
 <u><h1>functionality check and how to use</h1></u>
 
