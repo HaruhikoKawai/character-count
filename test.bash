@@ -10,10 +10,24 @@ ng() {
 res=0
 
 
+
+
+output=$(cat test1.txt | ./count)
+expected_output="Character count: 7"
+if [ "$output" != "$expected_output" ]; then
+  ng"$LINENO" "Expected '$expected_output', but got '$output'"
+fi
+
+output=$(cat test2.txt | ./count)
+expected_output="Character count: 0"
+if [ "$output" != "$expected_output" ]; then
+  ng"$LINENO" "Expected '$expected_output', but got '$output'"
+fi
+
 output=$(echo -e "\t" | ./count 2>&1)
 expected_output="Character count: 1"
 if [ "$output" != "$expected_output" ]; then
-    ng "$LINENO" "Expected '$expected_output', but got '$output'"
+  ng "$LINENO" "Expected '$expected_output', but got '$output'"
 fi
 
 
